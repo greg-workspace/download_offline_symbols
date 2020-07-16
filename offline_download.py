@@ -17,7 +17,7 @@ def main():
         content = fp.readlines()
         for rline in content:
             line = rline.strip()
-            if line.startswith('SYMSRV:  http'):
+            if line.startswith('SYMSRV:  http') and line.endswith(' not found'):
                 m = line.rstrip(' not found').split(':  ')
                 url =urljoin(main_url, m[1])
                 pdb_name = m[1][len('/download/symbols/'):]
