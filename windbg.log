@@ -1,0 +1,28 @@
+appened log file 'c:\windbg.log'
+0:020> .reload /f
+Reloading current modules
+.
+SYMSRV:  http://msdl.microsoft.com/download/symbols/iexplore.pdb/19463CCA99C3458F915AA4EC2096A04E2/iexplore.pdb not found
+DBGHELP: C:\Program Files (x86)\Internet Explorer\iexplore.pdb - file not found
+DBGHELP: iexplore.pdb - file not found
+*** ERROR: Module load completed but symbols could not be loaded for C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+DBGHELP: IEXPLORE - no symbols loaded
+
+SYMSRV:  http://msdl.microsoft.com/download/symbols/wkernel32.pdb/45737EEBC52C410D86FEB3A3E22357CD2/wkernel32.pdb not found
+DBGHELP: wkernel32.pdb - file not found
+*** ERROR: Symbol file could not be found.  Defaulted to export symbols for KERNEL32.dll - 
+DBGHELP: KERNEL32 - export symbols
+.
+SYMSRV:  http://msdl.microsoft.com/download/symbols/ntdll.pdb/61C9BF8294C94E48B732EA50C10355891/ntdll.pdb not found
+DBGHELP: C:\Windows\SYSTEM32\ntdll.pdb - file not found
+DBGHELP: ntdll.pdb - file not found
+*** ERROR: Symbol file could not be found.  Defaulted to export symbols for C:\Windows\SYSTEM32\ntdll.dll - 
+DBGHELP: ntdll - export symbols
+.
+SYMSRV:  http://msdl.microsoft.com/download/symbols/wntdll.pdb/0EA7C70545374958AD3307514BDFC8642/wntdll.pdb not found
+DBGHELP: wntdll.pdb - file not found
+*** ERROR: Symbol file could not be found.  Defaulted to export symbols for ntdll.dll - 
+DBGHELP: ntdll_777e0000 - export symbols
+
+
+
