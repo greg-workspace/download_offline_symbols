@@ -1,6 +1,6 @@
 # Download windbg symbols offline
 
-## Prepare **windbg.log** via windbg prompt
+## Prepare *windbg.log* via windbg prompt
 ``` console
 > !sym noisy
 > c:\windbg.log
