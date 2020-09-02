@@ -1,9 +1,11 @@
 # Download windbg symbols offline
 
 ## Prepare *windbg.log* via windbg prompt
+[Edit] -> [Open/Close Log File...] -> Input [Log file name:]
+
+## Reload symbols and write download failure message to **windbg.log**
 ``` console
 > !sym noisy
-> c:\windbg.log
 > .reload /f
 ```
 ## Download symbols file
