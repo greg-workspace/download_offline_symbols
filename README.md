@@ -9,8 +9,8 @@
 > .reload /f
 ```
 ## Download symbols file
-``` console
-> python3 offline_download.py
+``` shell
+$ python3 offline_download.py
 ```
 
 ## Reference
