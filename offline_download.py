@@ -27,6 +27,7 @@ def main():
             if uri:
                 print(f'uri: {uri:s}')
                 pdb_name = uri[len('/download/symbols/'):]
+                url =urljoin(main_url, m[1])
                 logging.info("Download from {} to {}".format(url, pdb_name))
                 download_file_by_curl(url, pdb_name, filename)
 if __name__ == '__main__':
