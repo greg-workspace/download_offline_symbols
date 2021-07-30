@@ -3,7 +3,6 @@
 ## Prepare *windbg.log* via windbg prompt
 ``` console
 > !sym noisy
-> c:\windbg.log
 > .reload /f
 ```
 ## Download symbols file
